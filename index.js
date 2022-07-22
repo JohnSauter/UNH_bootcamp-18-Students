@@ -4,7 +4,7 @@ const routes = require("./routes");
 
 const cwd = process.cwd();
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001; /* JBS was port */
 const app = express();
 
 // Note: not necessary for the Express server to function.
